@@ -17,10 +17,10 @@
         padding: 100px;
       }
       #ListSelect{
-        padding: 100px;
+        padding-top: 100px;        
       }
       #ListSelect label{
-        margin: 0px 35px;
+        margin: 0px 21px;
       }
       #ListSelect select{
         width: 115px;
@@ -36,17 +36,18 @@
       }
       .items h5{
         text-align: center;
-      }
+      } 
     </style>
   </head>
   
   <body>
     <section class="row">
-      <div id="ToG" class="col-8"> TITLE OF GOODS </div>
-      <div id="ListSelect" class="col-4">
+      <div id="ToG" class="col-9"> TITLE OF GOODS </div>
+      <div id="ListSelect" class="col-3">
         <table>
           <tr>
             <th><label class="" for="#">FILTER BY</label></th>
+            <th>&emsp;</th>
             <th><label class="" for="#">SORT BY</label></th>
           </tr>
           <tr>
@@ -58,6 +59,7 @@
               <option value="3">Three</option>
               </select> 
             </td>
+            <td></td>
             <td>
               <select dir="rtl" class="">
               <option selected>Open</option>

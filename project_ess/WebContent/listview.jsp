@@ -51,16 +51,16 @@
           </tr>
           <tr>
             <td>
-              <select class="">
-              <option selected>Open this select menu</option>
+              <select dir="rtl" class="">
+              <option selected>Open</option>
               <option value="1">One</option>
               <option value="2">Two</option>
               <option value="3">Three</option>
               </select> 
             </td>
             <td>
-              <select class="">
-              <option selected>Open this select menu</option>
+              <select dir="rtl" class="">
+              <option selected>Open</option>
               <option value="1">One</option>
               <option value="2">Two</option>
               <option value="3">Three</option>

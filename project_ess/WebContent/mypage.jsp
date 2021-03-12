@@ -104,13 +104,21 @@
                 <th>
                   <div class="purchaseStat">
                     <h5>결제완료</h5>
+<<<<<<< HEAD
                     <h5><a href="#">0</a></h5>
+=======
+                    <h5>0</h5>
+>>>>>>> main
                   </div>
                 </th>
                 <th>
                   <div class="purchaseStat">
                     <h5>배송완료</h5>
+<<<<<<< HEAD
                     <h5><a href="#">0</a></h5>
+=======
+                    <h5>0</h5>
+>>>>>>> main
                   </div>  
                 </th>
               </tr>

@@ -73,6 +73,9 @@
         margin-top: 50px;
         text-align: center;
       }
+      .purchaseStatTable_raw{
+        height: 40px;
+      }
     </style>
   </head>
   
@@ -104,21 +107,13 @@
                 <th>
                   <div class="purchaseStat">
                     <h5>결제완료</h5>
-<<<<<<< HEAD
-                    <h5><a href="#">0</a></h5>
-=======
                     <h5>0</h5>
->>>>>>> main
                   </div>
                 </th>
                 <th>
                   <div class="purchaseStat">
                     <h5>배송완료</h5>
-<<<<<<< HEAD
-                    <h5><a href="#">0</a></h5>
-=======
                     <h5>0</h5>
->>>>>>> main
                   </div>  
                 </th>
               </tr>
@@ -126,17 +121,30 @@
           </div>
         </div><br>
         <table id="purchaseStatTable">
-          <tr>
+          <tr style="height: 80px; font-size: 14pt;">
             <th style="width: 150px;">날짜</th>
             <th style="width: 200px;">주문번호</th>
             <th style="width: 400px;">상품명</th>
             <th style="width: 100px;">상태</th>
           </tr>
-          <tr>
-            <td>2021-03-21</td>
+          <!-- 마지막 주문목록이 위부터 내림차순 정렬  -->
+          <tr class="purchaseStatTable_raw">
+            <td>2021-03-16</td>
             <td><a href="#">ABCD123456789</a></td>
             <td><a href="#">SOMETHING BLAHBLAH</a></td>
             <td>배송중</td>
+          </tr>
+          <tr class="purchaseStatTable_raw">
+            <td>2021-03-15</td>
+            <td><a href="#">ABCD123456789</a></td>
+            <td><a href="#">SOMETHING BLAHBLAH</a></td>
+            <td>배송중</td>
+          </tr>
+          <tr class="purchaseStatTable_raw">
+            <td>2021-03-14</td>
+            <td><a href="#">ABCD123456789</a></td>
+            <td><a href="#">SOMETHING BLAHBLAH</a></td>
+            <td>배송완료</td>
           </tr>
         </table>
       </div>

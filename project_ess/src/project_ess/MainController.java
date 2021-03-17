@@ -1,5 +1,5 @@
 package project_ess;
 
-public class MyController {
+public class MainController {
 
 }
